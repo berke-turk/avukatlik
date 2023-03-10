@@ -70,7 +70,7 @@ body {
 
 .navbar .frame .social a:hover svg path {
     fill: #D7B56D;
-  }
+}
 
 a {
     color: white;
@@ -290,7 +290,7 @@ a {
 }
 
 #heykel {
-    right: 300px;
+    right: 55%;
     bottom: -43px;
     position: absolute;
     width: 700px;
@@ -496,7 +496,7 @@ a {
     align-items: start;
 }
 
-.footer .frame .social{
+.footer .frame .social {
     display: block;
 }
 
@@ -524,9 +524,9 @@ a {
 
 .footer .frame .left .social a:hover svg path {
     fill: #D7B56D;
-  }
-  
-.footer .frame .left .social a{
+}
+
+.footer .frame .left .social a {
     margin-right: 10px;
 }
 
@@ -824,34 +824,65 @@ a {
     opacity: .5;
 }
 
-.mobilmenu{
+.mobilmenu {
     display: none;
-  }
-  
-  #menuresp{
+}
+
+#menuresp {
     display: none;
-  }
+}
+
+@media only screen and (max-width: 1182px) {
+    .tape .frame .card {
+        margin: 20px 0;
+        padding: 0 0 0px 20px;
+    }
+    
+    .tape {
+        height: auto;
+        padding: 60px 0;
+    }
+}
+
+@media only screen and (max-width: 1126px) {
+    #heykel {
+        top: -23%;
+        position: absolute;
+        width: 125%;
+        left: -25%;
+        z-index: 9999;
+    }
+
+    .tape .frame .card {
+        margin: 20px 0;
+        padding: 0 0 0px 20px;
+    }
+    
+    .tape {
+        height: auto;
+        padding: 60px 0;
+    }
+}
 
 @media only screen and (max-width: 1000px) {
     .main {
         height: 400px;
-        
     }
 
     #av {
         height: auto;
     }
 
-    .ourteam .frame .card{
+    .ourteam .frame .card {
         margin: 0 0px;
         margin-bottom: 70px;
     }
-    
-    #end{
+
+    #end {
         margin-bottom: 0;
     }
 
-    .workarea{
+    .workarea {
         padding: 50px 20px;
     }
 
@@ -859,7 +890,7 @@ a {
         margin-bottom: 40px;
     }
 
-    .bigcard .card .text h3{
+    .bigcard .card .text h3 {
         font-size: 15px;
     }
 
@@ -877,7 +908,7 @@ a {
     .bigcard {
         color: #fff;
         width: 100%;
-    }    
+    }
 
     .bigcard .card .text {
         width: calc(100% - 55px);
@@ -893,37 +924,37 @@ a {
         border-bottom: 1px solid #353439;
     }
 
-    .workarea .frame .bigcard .son{
+    .workarea .frame .bigcard .son {
         border: none;
     }
 
-    #down{
+    #down {
         margin-bottom: 0px;
     }
 
-    .tape{
+    .tape {
         height: auto;
         padding: 60px 0;
     }
 
-    .tape .frame .card{
+    .tape .frame .card {
         width: 100%;
         margin: 20px 0;
         padding: 0 0 0px 20px;
         justify-content: left;
     }
 
-    .tape .frame .card img{
+    .tape .frame .card img {
         margin-right: 20px;
         width: 35px;
         height: 35px;
     }
-    
+
     .tape .frame .card .text {
         width: 77%;
     }
 
-    .tape .frame .card .text h3{
+    .tape .frame .card .text h3 {
         font-size: 15px;
     }
 
@@ -936,19 +967,22 @@ a {
         text-align: center;
     }
 
-    .main h1 i{
+    .main h1 i {
         font-size: 30px;
         text-align: center;
     }
 
-    .main p{
+    .main p {
         font-size: 12px;
         text-align: center;
     }
 
+    #rectangle {
+        width: 100%;
+    }
 
-    .mobilmenu{
-        position:absolute;
+    .mobilmenu {
+        position: absolute;
         z-index: 99999;
         top: 0;
         display: flex;
@@ -959,23 +993,23 @@ a {
         height: 6rem;
         padding: 0;
 
-      }
+    }
 
-      .logo1 img{
+    .logo1 img {
         margin-left: 1rem;
-        width:60px;
-      }
+        width: 60px;
+    }
 
-    
-      .menubuton{
+
+    .menubuton {
         margin-right: 1rem;
-      }
-    
-      .menubuton:hover{
+    }
+
+    .menubuton:hover {
         cursor: pointer;
-        }
-    
-      #menuresp{
+    }
+
+    #menuresp {
         display: block;
         position: fixed;
         width: 100%;
@@ -983,16 +1017,16 @@ a {
         z-index: 99999;
         transition: all .5s;
 
-      }
-    
-      .back{
+    }
+
+    .back {
         margin: 0;
         background-color: none;
-      }
+    }
 
-      #menuresp a{
+    #menuresp a {
 
-        transition: all .2s;  
+        transition: all .2s;
         display: inline-block;
         padding: 20px;
         font-size: 20px;
@@ -1001,38 +1035,41 @@ a {
         text-align: center;
         transition: all .2s;
         margin: 0;
-      }
+    }
 
-    
-    .navbar{
+
+    .navbar {
         display: none;
     }
-    
-      #m{
-          margin-top:90px;
-      }
 
-      .footer{
+    #m {
+        margin-top: 90px;
+    }
+
+    .footer {
         padding: 40px;
-      }
+    }
 
-      .footer .frame .left p{
+    .footer .frame .left p {
         margin-bottom: 0;
-      }
+    }
 
-      .footer .frame .left, .footer .frame .center2, .footer .frame .center1, .footer .frame .right{
+    .footer .frame .left,
+    .footer .frame .center2,
+    .footer .frame .center1,
+    .footer .frame .right {
         margin-bottom: 40px;
-      }
+    }
 
-      .footer .frame{
+    .footer .frame {
         justify-content: center;
         flex-direction: column;
         align-items: center;
         text-align: center;
-      }
+    }
 
-      .footer .frame1{
+    .footer .frame1 {
         margin-bottom: 0px;
         text-align: center;
-      }
     }
+}
